@@ -1,0 +1,12 @@
+# springcloud
+这里是关于springcloud和springcloud alibaba 微服务组件案例练习
+springcloud初始组件
+Eureka服务注册与发现 Zookeeper服务注册与发现 Consul服务注册与发现 Ribbon负载均衡服务调用
+OpenFeign服务接口调用 Hystrix断路器 zuul路由网关 Gateway路由网关 Config分布式配置中心
+Bus 消息总线 Stream消息驱动 Sleuth分布式请求链路跟踪
+springcloud alibaba微服务组件
+Nacos服务注册和配置中心 Sentinel熔断与限流 Seata处理分布式事务
+
+应用seata分布式事务做了关于下订单流程的一个垂直分库
+对应seata-order/account/storage-service2001/2002/2003
+将订单表、库存表、账户表分别拆分到三个不同的库中来降低原本单个库的访问压力，提升数据库响应速度，缩短查询时间。
