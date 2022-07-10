@@ -10,3 +10,4 @@ Nacos服务注册和配置中心 Sentinel熔断与限流 Seata处理分布式事
 应用seata分布式事务做了关于下订单流程的一个垂直分库
 对应seata-order/account/storage-service2001/2002/2003
 将订单表、库存表、账户表分别拆分到三个不同的库中来降低原本单个库的访问压力，提升数据库响应速度，缩短查询时间。
+项目地址：https://github.com/Orang123/springcloud
